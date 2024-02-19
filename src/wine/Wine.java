@@ -34,9 +34,9 @@ public abstract class Wine {
         RedWine shiraz = new RedWine("Shiraz", "Barossa Valley, Australia");
         RedWine pinotNoir = new RedWine("Pinot Noir", "Burgundy, France");
 
-        System.out.println(cabarnet.getName() + " " + cabarnet.getOrigin());
-        System.out.println(shiraz.getName() + " " + shiraz.getOrigin());
-        System.out.println(pinotNoir.getName() + " " + pinotNoir.getOrigin());
+        System.out.println(cabarnet.getName() + " | " + cabarnet.getOrigin());
+        System.out.println(shiraz.getName() + " | " + shiraz.getOrigin());
+        System.out.println(pinotNoir.getName() + " | " + pinotNoir.getOrigin());
         
         // White Wine
         System.out.println("\nWhite Wine:");
@@ -44,8 +44,8 @@ public abstract class Wine {
         WhiteWine sauvignonb = new WhiteWine("Sauvignon Blanc", "Marlborough, NZ");
         WhiteWine riesling = new WhiteWine("Riesling", "Mosel, Germany");
 
-        System.out.println(chardonay.getName() + " " + chardonay.getOrigin());
-        System.out.println(sauvignonb.getName() + " " + sauvignonb.getOrigin());
-        System.out.println(riesling.getName() + " " + riesling.getOrigin());
+        System.out.println(chardonay.getName() + " | " + chardonay.getOrigin());
+        System.out.println(sauvignonb.getName() + " | " + sauvignonb.getOrigin());
+        System.out.println(riesling.getName() + " | " + riesling.getOrigin());
     }
 }
