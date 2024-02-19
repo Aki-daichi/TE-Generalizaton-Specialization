@@ -11,6 +11,6 @@ package wine;
 
 public class WhiteWine extends Wine {
     public WhiteWine(String name, String origin) {
-        super(name, origin); // Calling the Wine constructor
+        super(name, origin); //Memanggil constructor wine
     }
 }
