@@ -11,8 +11,8 @@ package wine;
 
 // Abstract superclass Wine
 public abstract class Wine {
-    private String name;
-    private String origin;
+    private final String name;
+    private final String origin;
 
     public Wine(String name, String origin) {
         this.name = name;
