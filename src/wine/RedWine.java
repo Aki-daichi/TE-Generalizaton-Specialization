@@ -10,21 +10,7 @@ package wine;
  */
 
 public class RedWine extends Wine {
-    private String name;
-    private String origin;
-
     public RedWine(String name, String origin) {
-        this.name = name;
-        this.origin = origin;
-    }
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public String getOrigin() {
-        return origin;
+        super(name, origin); // Calling the Wine constructor
     }
 }
